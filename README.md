@@ -213,7 +213,7 @@ Script para consultar CPF
 
 ## REGEX
 
-![Regex](./image/regex-cpf.png)
+![Regex](Markdom/image/regex-cpf.png)
 
 ## Massa de dados CPF
 
