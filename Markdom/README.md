@@ -206,8 +206,8 @@ Script para consultar CPF
 
 - d= caractere numéricos
 - {3} = quantidade de conjuntos
-- . = 
-- ? = 
+- . = representa qualquer caractere
+- ? = pode ter um (.) ou não
 
 - Link exemplo: https://regex101.com/r/OEjCA1/1
 
@@ -221,3 +221,18 @@ Script para consultar CPF
 - 856.677.135-43
 - 425.914.730-72
 - 843.871.07006
+
+REGEX para consultar datas:
+
+Os gatos fazem aniversário em: 21 de Dezembro de 1988, 13 de julho de 1988, 15 de março de 1999.
+
+- Consulta  com parametro dia dos mês: [123][1-9] -> definem o dia do mês.
+- Consulta com espaços para ignorar possíveis espaços no texto consultado.
+Exemplo:
+
+![Regex](./image/spaces.png)
+
+Código:
+```
+[123][1-9]\s{1,}de
+```
