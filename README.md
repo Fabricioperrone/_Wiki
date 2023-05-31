@@ -7,15 +7,18 @@
  * Ctrl+Alt+N, por baixo ele chama o _node_
  * 
  */
-
+```
 console.log('Teste')
-
+```
+## Comentário no JS
+```
 /*
  * Multiple
  * Lines
  * JS
  * Comment
  */
+ ```
 
  ## Dicas VS CODE:
  Teclas de atalho VS CODE
@@ -33,12 +36,12 @@ Com o docker rodando em seu computador, execute o comando docker run --publish 8
 ## Dicas de _PROMPT_ DE COMANDO (DOS):
 
 ## Exibir pastas e criar pastas
-### Dir
+## Dir
 dir exibir pastas
 cd acessar uma pasta
 mkdir criar uma pasta
 
-### Power Shell
+## Power Shell
 Para abrir o power Shell em uma pasta use tecla windows + shift e clique
 botão direito em qualquer lugar da pasta e secione abrir janela do power Shell aqui.
 
@@ -48,17 +51,17 @@ Podemos usar o comando “cd ..” para retornar uma pasta atrás da atual.
 
 Esse comando é sempre o mesmo, você pode usá-lo sempre que quiser ir para a pasta anterior.
 
-### Clear
+## Clear
 Outro comando super interessante é o “cls” ou “clear”. Ele limpa todos os comandos listados, melhorando a visualização no terminal. Lembrando que ele limpa apenas os comandos, nenhum efeito de comando anterior é perdido.
 
-### MKDIR
+## MKDIR
 Você também pode criar uma nova pasta a partir do terminal com o comando “mkdir”. No exemplo a seguir, usei o “dir” para mostrar as pastas contidas na pasta “Projetos”, criei uma nova pasta, mostrei novamente as pastas com o “dir”, para mostrar que foi adicionada uma nova pasta lá, e entrei na pasta recém criada com o comando “cd”.
 
-### Del
+## Del
  del + nome da pasta/arquivo
 Você pode também apagar arquivos e pastas com o comando “del + nome da pasta/arquivo”. 
 
-### Help
+## Help
 Um outro comando super válido de se utilizar é o ‘help’, pois ele lista todos os comandos que você pode utilizar. É muito bom para quem não quer ir pesquisar em outro local sobre os demais  comandos do terminal. Basta utilizar o comando ‘help’ dentro dele mesmo e pronto!
 
 ## Dicas _Cypress_:
@@ -102,7 +105,7 @@ Agora que você já leu a documentacão oficial do Cypress sobre os comandos `c
 
 # Github
 
-# Parte 1: primeiros passos no GIT
+## Parte 1: primeiros passos no GIT
 
 ## Configuração inicial:
 
@@ -203,12 +206,12 @@ Script para consultar CPF
 ```
 \d{3}\.?\d{3}\.?\d{3}[-.]?\d{2}
 ```
-Resultado:
+## Resultado:
 
 ![Regex](./Markdom/image/regex-cpf2.png)
 
 ## Help
-### Exprssões Regulares e classes
+### Expressões Regulares e classes
 
 ![Regex](./Markdom/image/quantificadores.png)
 
@@ -225,7 +228,7 @@ Resultado:
 - 425.914.730-72
 - 843.871.07006
 
-REGEX para consultar datas:
+## REGEX para consultar datas:
 
 Os gatos fazem aniversário em: 21 de Dezembro de 1988, 13 de julho de 1988, 15 de março de 1999.
 
@@ -235,7 +238,7 @@ Exemplo:
 
 ![Regex](./Markdom/image/spaces.png)
 
-Código:
+## Código:
 ```
 [123][1-9]\s{1,}de
 ```
@@ -244,28 +247,28 @@ Outra forma de fazer a mesma coisa só que mais bonito!!!
 ```
 [123][1-9]\s+de
 ```
-Resultado:
+## Resultado:
 
 ![Regex](./Markdom/image/regex-space.png)
 
-Regex datas:
+## Regex datas:
 
-Código:
+## Código:
 ```
 [123][1-9]\s+(de\s+)?[a-z][a-zç]{4,8}\s+(de\s+)?[1-2]\d{3}
 ```
 
-Resultado:
+## Resultado:
 
 ![Regex](./Markdom/image/regex-date.png)
 
-Regulex:
+## Regulex:
 
 ![Regulex](./Markdom/image/regulex.png)
 
 ## Validando uma URL com Regex:
 
-Exemplo:
+## Exemplo:
 
 ```
 http:www\.\w+\.org
@@ -277,3 +280,18 @@ http:www\.\w+\.org
 ## Regulex
 
 ![Regulex](./Markdom/image/regulex-url.png)
+
+## Tags regex:
+```
+<(h1|h2).+>(\w+\s\w+)?
+```
+
+## Resultado:
+
+![Regex](./Markdom/image/regex-tags.png)
+
+## Rubular
+## Editor de expressões
+
+![Regex](./Markdom//image/rubular.png)
+https://rubular.com/
