@@ -262,3 +262,14 @@ Resultado:
 Regulex:
 
 ![Regulex](./Markdom/image/regulex.png)
+
+## Validando uma URL com Regex:
+
+Exemplo:
+
+```
+http:www\.\w+\.org
+```
+Resultado:
+
+![Regex](./Markdom/image/regex-url.png)
