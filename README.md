@@ -236,3 +236,26 @@ Código:
 ```
 [123][1-9]\s{1,}de
 ```
+Outra forma de fazer a mesma coisa só que mais bonito!!!
+
+```
+[123][1-9]\s+de
+```
+Resultado:
+
+![Regex](./Markdom/image/regex-space.png)
+
+Regex datas:
+
+Código:
+```
+[123][1-9]\s+(de\s+)?[a-z][a-zç]{4,8}\s+(de\s+)?[1-2]\d{3}
+```
+
+Resultado:
+
+![Regex](./Markdom/image/regex-date.png)
+
+Regulex:
+
+![Regulex](./Markdom/image/regulex.png)
