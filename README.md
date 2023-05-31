@@ -203,6 +203,9 @@ Script para consultar CPF
 ```
 \d{3}\.?\d{3}\.?\d{3}[-.]?\d{2}
 ```
+Resultado:
+
+![Regex](./Markdom/image/regex-cpf2.png)
 
 - d= caractere numéricos
 - {3} = quantidade de conjuntos
