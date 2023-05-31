@@ -270,6 +270,10 @@ Exemplo:
 ```
 http:www\.\w+\.org
 ```
-Resultado:
+## Resultado:
 
 ![Regex](./Markdom/image/regex-url.png)
+
+## Regulex
+
+![Regulex](./Markdom/image/regulex-url.png)
