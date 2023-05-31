@@ -207,10 +207,10 @@ Resultado:
 
 ![Regex](./Markdom/image/regex-cpf2.png)
 
-- d= caractere numéricos
-- {3} = quantidade de conjuntos
-- . = representa qualquer caractere
-- ? = pode ter um (.) ou não
+## Help
+### Exprssões Regulares e classes
+
+![Regex](./Markdom/image/quantificadores.png)
 
 - Link exemplo: https://regex101.com/r/OEjCA1/1
 
