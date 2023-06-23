@@ -19,7 +19,7 @@ console.log('Teste')
  * Comment
  */
  ```
-Comparação estrita:
+Comparação restrita:
 
 Diferença entre “==” e “===”
 É possível perceber na tabela acima, que existe tanto o símbolo de “igual a” (==), quanto o de “idêntico a” (===). Mas qual eu devo utilizar para cada situação? Se usarmos o operador “==” em uma condição, saberemos que ela só será verdadeira se o valor da esquerda for o mesmo valor da direita, por exemplo:
