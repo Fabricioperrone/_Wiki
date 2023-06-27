@@ -129,7 +129,7 @@ Poderíamos até mesmo ir além, e antes de digitar no campo, garantir (explicit
 
 Agora que você já leu a documentacão oficial do Cypress sobre os comandos `cy.get()`, `.type()` e `.click()`, e você também já entendeu sobre as re-tentativas e encadeamento de comandos.
 
-Notes Cypress
+## Notes Cypress
 
 Hide log do cypress: por no arquivo e2e
 
