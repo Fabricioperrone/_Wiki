@@ -148,6 +148,53 @@ git push -u origin main
 git remote add origin git@github.com:Fabricioperrone/Estudos_Github.gitgit branch -M main
 git push -u origin main
 ```
+Notes Cypress
+
+Hide log do cypress: por no arquivo e2e
+
+  ## Hide fetch/XHR requests(Esconde logs do Cypress)
+```
+  const app = window.top;
+  if (!app.document.head.querySelector('[data-hide-command-log-request]')) {
+    const style = app.document.createElement('style');
+    style.innerHTML =
+      '.command-name-request, .command-name-xhr { display: none }';
+    style.setAttribute('data-hide-command-log-request', '');
+  
+    app.document.head.appendChild(style);
+  }
+  ```
+## Solução erro (uncaugth:exception)
+```
+  Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+});
+```
+Step 2:
+  - por no arquivo cypress.config.js
+ ```
+"hideXHR" : true
+```
+Ajsute de tela Cypress:
+```
+ cy.viewport(1440, 900)
+```
+
+
+---------------------------------
+## Veririfica que o elemento:
+```
+   cy.assertLoadingIsShownAndHidden()
+   ```
+ Veririfica que um elemento de loading é exibido, e depois não mais.
+ ```
+cy.contains('More').should('be.visible')
+```
+Veririca se o botão "More" está visível.
+
+
 
 
 # Linux
