@@ -129,51 +129,6 @@ Poderíamos até mesmo ir além, e antes de digitar no campo, garantir (explicit
 
 Agora que você já leu a documentacão oficial do Cypress sobre os comandos `cy.get()`, `.type()` e `.click()`, e você também já entendeu sobre as re-tentativas e encadeamento de comandos.
 
-# Github
-
-## Parte 1: primeiros passos no GIT
-
-## Configuração inicial:
-
-- GIT CONFIG   - -GLOBAL [USER.NAME](http://USER.NAME) “SEU NOME”. Cria usuário;
-- GIT CONFIG   - -GLOBAL [USER.EMAIL](http://USER.EMAIL) “MEU@EMAIL.COM”. Vincula email no git.
-- GIT CONFIG   - -GLOBAL CORE.EDITOR “NOME DO EDITOR DE TEXTO”
-
-## Comandos de consulta:
-
-- GIT CONFIG [USER.NAME](http://USER.NAME): Exibe nome de usuário.
-- GIT CONFIG - -LIST : Exibe todos os dados do usuário GIT.
-
-## Iniciando um repositório no git:
-
-- MKDIR : Cria uma pasta em um repositório.
-- CD : Acessa uma pasta.
-- LS  -LA : Exibe uma lista de itens de uma pasta.
-- GIT INIT: Inicializar um repositório GIT.
-- LS -LA   ~/.SSH : Verificar chaves existentes.
-- SSH-KEYGEN -T ed25519 -C “meu_email@exemplo.com”
-- CLIP < ~/.SSH/ID_ed25519.pub: Faz uma cópia da chave para inserir no seu Git.
-- SSH -T GIT@GITHUB.COM: Testa conexão com Git.
-- GIT REMOTE ADD ORIGIN GIT@GITHUB.COM:MEUUSER/NOMEDAPASTA.GIT: Faz a conexão do repositório remoto com o repositório local.
-- GIT PUSH ORIGIN -U MASTER: Sobe todo o Git que está na pasta para o repositório remoto.h config
-- GIT PULL : Traz tudo que está no repositório remoto.
-- GIT PUSH : Faz o caminho contrário, envia tudo que está no repositório local para o repositório remoto. Obs: ele só ira enviar o que está comitado.
-- GIT CHECKOUT -B NOMEDOBRANCH: Cria um novo Branch.
-- GIT CHECKOUT “TESTE”: Vai para Branch informado.
-- 
-
-echo "# Estudos_APIS" >> [README.md](http://readme.md/)
-git init
-git add [README.md](http://readme.md/)
-git commit -m "first commit"
-git branch -M main
-git remote add origin [git@github.com](mailto:git@github.com):Fabricioperrone/Estudos_APIS.git
-git push -u origin main
-
-```
-git remote add origin git@github.com:Fabricioperrone/Estudos_Github.gitgit branch -M main
-git push -u origin main
-```
 Notes Cypress
 
 Hide log do cypress: por no arquivo e2e
@@ -219,6 +174,54 @@ Ajsute de tela Cypress:
 cy.contains('More').should('be.visible')
 ```
 Veririca se o botão "More" está visível.
+
+
+# Github
+
+## Parte 1: primeiros passos no GIT
+
+## Configuração inicial:
+
+- GIT CONFIG   - -GLOBAL [USER.NAME](http://USER.NAME) “SEU NOME”. Cria usuário;
+- GIT CONFIG   - -GLOBAL [USER.EMAIL](http://USER.EMAIL) “MEU@EMAIL.COM”. Vincula email no git.
+- GIT CONFIG   - -GLOBAL CORE.EDITOR “NOME DO EDITOR DE TEXTO”
+
+## Comandos de consulta:
+
+- GIT CONFIG [USER.NAME](http://USER.NAME): Exibe nome de usuário.
+- GIT CONFIG - -LIST : Exibe todos os dados do usuário GIT.
+
+## Iniciando um repositório no git:
+
+- MKDIR : Cria uma pasta em um repositório.
+- CD : Acessa uma pasta.
+- LS  -LA : Exibe uma lista de itens de uma pasta.
+- GIT INIT: Inicializar um repositório GIT.
+- LS -LA   ~/.SSH : Verificar chaves existentes.
+- SSH-KEYGEN -T ed25519 -C “meu_email@exemplo.com”
+- CLIP < ~/.SSH/ID_ed25519.pub: Faz uma cópia da chave para inserir no seu Git.
+- SSH -T GIT@GITHUB.COM: Testa conexão com Git.
+- GIT REMOTE ADD ORIGIN GIT@GITHUB.COM:MEUUSER/NOMEDAPASTA.GIT: Faz a conexão do repositório remoto com o repositório local.
+- GIT PUSH ORIGIN -U MASTER: Sobe todo o Git que está na pasta para o repositório remoto.h config
+- GIT PULL : Traz tudo que está no repositório remoto.
+- GIT PUSH : Faz o caminho contrário, envia tudo que está no repositório local para o repositório remoto. Obs: ele só ira enviar o que está comitado.
+- GIT CHECKOUT -B NOMEDOBRANCH: Cria um novo Branch.
+- GIT CHECKOUT “TESTE”: Vai para Branch informado.
+- 
+
+echo "# Estudos_APIS" >> [README.md](http://readme.md/)
+git init
+git add [README.md](http://readme.md/)
+git commit -m "first commit"
+git branch -M main
+git remote add origin [git@github.com](mailto:git@github.com):Fabricioperrone/Estudos_APIS.git
+git push -u origin main
+
+```
+git remote add origin git@github.com:Fabricioperrone/Estudos_Github.gitgit branch -M main
+git push -u origin main
+```
+
 
 
 
