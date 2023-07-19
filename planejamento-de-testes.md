@@ -7,7 +7,7 @@
 
   ### Exemplo:
   - **Explorar** a regra de datas no cadastro de empregos
-  - **Com** classes de equivalência e valores linmites
+  - **Com** classes de equivalência e valores limites
   - **Para** descobrir como o sistema se comportará em caso de concomitâncias de emprego.
 
 ## Freestyle - Técnica 
@@ -16,7 +16,7 @@ Usa-se para determinarmos uma rota, e termos um card inicial, levantarmos cenár
 Exemplo:
 - **Explorar** a aplicação
 - **Com** navegação livre
-- **Para descobrir** as principais funcionalidade do sistem.
+- **Para descobrir** as principais funcionalidade do sistema.
 # BDD
 - **Dado** - Pré-requisitos do desejo;
 - **E**   - Pré-requisitos, necessidades da ação;
