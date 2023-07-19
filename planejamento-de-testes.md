@@ -14,7 +14,7 @@
 Usa-se para determinarmos uma rota, e termos um card inicial, levantarmos cenários a serem cobertos, e assim os próximos cards, mais focados.
 
 Exemplo:
-- **Esplorar** a aplicação
+- **Explorar** a aplicação
 - **Com** navegação livre
 - **Para descobrir** as principais funcionalidade do sistem.
 # BDD
