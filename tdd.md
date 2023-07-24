@@ -28,8 +28,8 @@ e depois faça melhor
  - diferenças
  - baby steps, red/refactor/green
 
-Primeira coisa é criar os testes
-quebrar o teste
+Primeiros passos é criar o testes,
+quebrar o teste, logo faça de novo, faça bem feito!
 antes 
 - TDD é melhor? É mais rápido?
 
